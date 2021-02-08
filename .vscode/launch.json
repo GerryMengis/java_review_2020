@@ -1,0 +1,280 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch InterfaceAbstract1",
+            "request": "launch",
+            "mainClass": "OOP.Abstract.InterfaceAbstract1",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfaceAbstract",
+            "request": "launch",
+            "mainClass": "OOP.Abstract.InterfaceAbstract",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBank",
+            "request": "launch",
+            "mainClass": "OOP.Abstract.TestBank",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Honda",
+            "request": "launch",
+            "mainClass": "OOP.Abstract.Honda",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bike",
+            "request": "launch",
+            "mainClass": "OOP.Abstract.Bike",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch List_ArrayList_hashMap",
+            "request": "launch",
+            "mainClass": "OOP.List_ArrayList_hashMap",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunTime",
+            "request": "launch",
+            "mainClass": "OOP.Polymorphism.RunTime",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Polymorphism",
+            "request": "launch",
+            "mainClass": "OOP.Polymorphism.Polymorphism",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmployeeTest",
+            "request": "launch",
+            "mainClass": "OOP.EmployeeTest",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dog",
+            "request": "launch",
+            "mainClass": "Interview_question_review.Dog",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Functions",
+            "request": "launch",
+            "mainClass": "Interview_question_review.Functions",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Constructor",
+            "request": "launch",
+            "mainClass": "Interview_question_review.Constructor",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompileError",
+            "request": "launch",
+            "mainClass": "Interview_question_review.CompileError",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunTimeError",
+            "request": "launch",
+            "mainClass": "Interview_question_review.RunTimeError",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Interview_question_review.Test",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Functions",
+            "request": "launch",
+            "mainClass": "Functions",
+            "projectName": "java_review_2020_86035af1"
+        },
+        {
+            "type": "java",
+            "name": "Launch summary",
+            "request": "launch",
+            "mainClass": "summary",
+            "projectName": "java_review_2020_86035af1"
+        },
+        {
+            "type": "java",
+            "name": "Launch summary",
+            "request": "launch",
+            "mainClass": "DataTypes.summary",
+            "projectName": "java_review_2020_86035af1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Arrays",
+            "request": "launch",
+            "mainClass": "DataStructure.Arrays",
+            "projectName": "java_review_2020_86035af1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DLL",
+            "request": "launch",
+            "mainClass": "DataStructure.DLL",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CLinkedList",
+            "request": "launch",
+            "mainClass": "DataStructure.CLinkedList",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Arrays<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataStructure.Arrays",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LList<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataStructure.LList",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Arrays<java_review_d393767b>(1)",
+            "request": "launch",
+            "mainClass": "DataTypes.Arrays",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DataTypes<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataTypes.DataTypes",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-forLoop<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataTypes.forLoop",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-helloworld<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataTypes.helloworld",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ifElse<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataTypes.ifElse",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-switchCase<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataTypes.switchCase",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-whileLoop<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "DataTypes.whileLoop",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Recursive<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "HackeRank.Recursive",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "HackeRank.Solution",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-getDay<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "HackeRank.getDay",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EmployeeTest<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "OOP.EmployeeTest",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Inheritance<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "OOP.Inheritance",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-List_ArrayList_hashMap<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "OOP.List_ArrayList_hashMap",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main_ClassAndObject<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "OOP.Main_ClassAndObject",
+            "projectName": "java_review_d393767b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StaticvarAndMethod<java_review_d393767b>",
+            "request": "launch",
+            "mainClass": "OOP.StaticvarAndMethod",
+            "projectName": "java_review_d393767b"
+        }
+    ]
+}
