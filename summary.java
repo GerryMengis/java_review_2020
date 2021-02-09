@@ -1,10 +1,17 @@
 
 import java.lang.Math;
+import java.util.Scanner;
 
 public class summary {
 
     public static void main(String[] args) {
         System.out.println("Hello, World");
+        // user input
+        Scanner input = new Scanner(System.in);
+        System.out.print("Verify your name please ");
+        // String inputchar = input.nextLine();
+        String inputchar = input.next();
+        System.out.println("Thank you for verifing your name " + inputchar);
 
         System.out.println(Integer.parseInt("123"));
         System.out.println(Math.random());
@@ -22,6 +29,12 @@ public class summary {
             t++;
         }
         System.out.println();
+
+        int b = 0;
+        do{
+            System.out.println("do must printing at least once....");
+            b++;
+        } while (b < 1 );
 
         // n! for loop
         int n = 10;
