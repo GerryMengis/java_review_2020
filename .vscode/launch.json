@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ThreadExample",
+            "request": "launch",
+            "mainClass": "Multithreading.ThreadExample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadExample",
+            "request": "launch",
+            "mainClass": "DataStructure.Multithreading.ThreadExample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "DataStructure.Arrays",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch try_catch",
+            "request": "launch",
+            "mainClass": "OOP.ExceptionHandling.try_catch",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
             "name": "Launch tokonizer",
             "request": "launch",
             "mainClass": "OOP.StringBufferANDBuilder.tokonizer",

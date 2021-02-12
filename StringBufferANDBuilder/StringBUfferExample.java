@@ -1,4 +1,4 @@
-package OOP.StringBufferANDBuilder;
+package StringBufferANDBuilder;
 
 public class StringBUfferExample {
     public static void main(String[] args) {

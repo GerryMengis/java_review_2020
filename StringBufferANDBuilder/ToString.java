@@ -1,4 +1,4 @@
-package OOP.StringBufferANDBuilder;
+package StringBufferANDBuilder;
 
 class Student {
     int rollno;
