@@ -29,7 +29,7 @@ public class StringBUfferExample {
         // reverse()
         strbuffer.reverse();   
         // append()
-        strbuffer.append(" ,this is my favourite language ");
+        strbuffer.append(" ,this is my favorite language ");
         System.out.println(strbuffer);
         System.out.println(strbuffer.capacity());
 

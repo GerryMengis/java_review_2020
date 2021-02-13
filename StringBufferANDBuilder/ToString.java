@@ -21,7 +21,7 @@ class Student {
         return sb.toString();
     }
 
-    // Check palandrome
+    // Check palindrome
     public static boolean isPalindrome(String str) {
         StringBuilder sb = new StringBuilder(str);
         sb.reverse();
@@ -45,7 +45,7 @@ public class ToString {
         // reverse() string using StringBUffer
         System.out.println(Student.reverseString("Gerry"));
         
-        // Check palandrome
+        // Check palindrome
         System.out.println(Student.isPalindrome("nitin"));
         System.out.println(Student.isPalindrome("jatin"));
     }

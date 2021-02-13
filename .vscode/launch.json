@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MemoryTest",
+            "request": "launch",
+            "mainClass": "Multithreading.MemoryTest",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Runnablethrtead",
+            "request": "launch",
+            "mainClass": "Multithreading.Runnablethrtead",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tokonizer",
+            "request": "launch",
+            "mainClass": "StringBufferANDBuilder.Tokonizer",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreadExample",
             "request": "launch",
             "mainClass": "Multithreading.ThreadExample",

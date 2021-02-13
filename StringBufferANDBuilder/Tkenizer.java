@@ -2,7 +2,7 @@ package StringBufferANDBuilder;
 
 import java.util.StringTokenizer;
 
-public class Tokonizer {
+public class Tkenizer {
     public static void main(String[] args) {
         StringTokenizer st1 = new StringTokenizer("my name is gerry");
         
