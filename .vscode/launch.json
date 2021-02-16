@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InterThread",
+            "request": "launch",
+            "mainClass": "Multithreading.InterThread",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inter_Thread",
+            "request": "launch",
+            "mainClass": "Multithreading.Inter_Thread",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Multithreading.Test",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSynchronization4",
+            "request": "launch",
+            "mainClass": "Multithreading.TestSynchronization4",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
             "name": "Launch MemoryTest",
             "request": "launch",
             "mainClass": "Multithreading.MemoryTest",
