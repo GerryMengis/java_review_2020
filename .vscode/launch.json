@@ -6,6 +6,195 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BookLinkedList",
+            "request": "launch",
+            "mainClass": "Collection.BookLinkedList",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListBook",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListBook",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListBookExample",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListBookExample",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkList",
+            "request": "launch",
+            "mainClass": "Collection.LinkList",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkList1",
+            "request": "launch",
+            "mainClass": "Collection.LinkList1",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "DataStructure.Arrays",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentArrayList",
+            "request": "launch",
+            "mainClass": "Collection.StudentArrayList",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch summary",
+            "request": "launch",
+            "mainClass": "JunkFolder.summary",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertLinkedListAtBeginning",
+            "request": "launch",
+            "mainClass": "DataStructure.InsertLinkedListAtBeginning",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayExample",
+            "request": "launch",
+            "mainClass": "DataStructure.arrayExample",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackList",
+            "request": "launch",
+            "mainClass": "Collection.StackList",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LList",
+            "request": "launch",
+            "mainClass": "DataStructure.LList",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch LLexample",
+            "request": "launch",
+            "mainClass": "DataStructure.LLexample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertLinkedListAtBeginning",
+            "request": "launch",
+            "mainClass": "DataStructure.InsertLinkedListAtBeginning",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertLinkedListAtBeggning",
+            "request": "launch",
+            "mainClass": "DataStructure.InsertLinkedListAtBeggning",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch SinglyLinkedList",
+            "request": "launch",
+            "mainClass": "DataStructure.SinglyLinkedList",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListExample",
+            "request": "launch",
+            "mainClass": "DataStructure.LinkedListExample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch LLInsertion",
+            "request": "launch",
+            "mainClass": "DataStructure.LLInsertion",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayExample",
+            "request": "launch",
+            "mainClass": "DataStructure.arrayExample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListBookExample",
+            "request": "launch",
+            "mainClass": "Collection.LinkedListBookExample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkList1",
+            "request": "launch",
+            "mainClass": "Collection.LinkList1",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListExample",
+            "request": "launch",
+            "mainClass": "Collection.ArrayListExample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListExample",
+            "request": "launch",
+            "mainClass": "Collections.ArrayListExample",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterThread",
+            "request": "launch",
+            "mainClass": "Multithreading.InterThread",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inter_Thread",
+            "request": "launch",
+            "mainClass": "Multithreading.Inter_Thread",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Multithreading.Test",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSynchronization4",
+            "request": "launch",
+            "mainClass": "Multithreading.TestSynchronization4",
+            "projectName": "java_review_2020_1cd2ca55"
+        },
+        {
+            "type": "java",
             "name": "Launch MemoryTest",
             "request": "launch",
             "mainClass": "Multithreading.MemoryTest",

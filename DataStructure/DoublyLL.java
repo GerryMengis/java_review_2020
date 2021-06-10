@@ -3,7 +3,7 @@ package DataStructure;
 // A complete working Java program to demonstrate all 
 
 // Class for Doubly Linked List 
-public class DLL { 
+public class DoublyLL { 
 	Node head; // head of list 
 
 	/* Doubly Linked list Node*/
@@ -118,7 +118,7 @@ public class DLL {
 	public static void main(String[] args) 
 	{ 
 		/* Start with the empty list */
-		DLL dll = new DLL(); 
+		DoublyLL dll = new DoublyLL(); 
 
 		// Insert 6. So linked list becomes 6->NULL 
 		dll.append(6); 

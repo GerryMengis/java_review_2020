@@ -1,7 +1,7 @@
 package DataStructure;
 
 
-public class CLinkedList {
+public class CircularLL {
     public static void main(String[] args) {
         CircularLinkedList c = new CircularLinkedList();
         c.AddAtStart(3);

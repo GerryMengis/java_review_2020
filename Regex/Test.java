@@ -1,15 +1,16 @@
+package Regex;
 import java.util.regex.*;
 // import java.util.regex.Matcher;
 
 public class Test {
     public static void main(String[] args) {
 
-        // regax macher and pattern
+        // regex matcher and pattern
         Pattern p = Pattern.compile("..xx..");
         Matcher m = p.matcher("SZxxZZ");
         System.out.println(m.matches()); //true
 
-        System.out.println("Regex charctor class ");
+        System.out.println("Regex character class ");
         System.out.println(Pattern.matches("[xyz]", "abc")); // false
         System.out.println(Pattern.matches("[vxyz]", "x")); // true
         System.out.println(Pattern.matches("[xyz]", "xz")); //false
@@ -36,10 +37,6 @@ public class Test {
         System.out.println(Pattern.matches("[xyabcz]{2}", "xx")); //true
         System.out.println(Pattern.matches("[xyabcz]{2}", "xy")); //true
         System.out.println(Pattern.matches("[xyabcz]{2}", "xyab")); //true
-
-
-
-
     }
     
 }

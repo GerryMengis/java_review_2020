@@ -1,20 +1,20 @@
 package DataStructure;
 
-public class LList {
+public class LinkedList1 {
     Node head;
 
     static class Node{
-        Node next;
+        Node next;//null
         int value;
         Node(int value){
             this.next = null;
-            this.value = value;
+            this.value = value;//null
         }
     }
 
     // add value
-    public void addvalue(int value){
-        if(head == null){
+    public void addvalue(int value) {
+        if (head == null) {
             head = new Node(value);
             return;
         }
@@ -22,13 +22,14 @@ public class LList {
         Node new_node = new Node(value);
         new_node.next = null;
 
-        Node last_node = head;
-        while(last_node.next != null){
-            last_node = last_node.next;
+        Node temp = head;
+        while (temp.next != null) {
+            temp = temp.next;
         }
-        last_node.next = new_node;
-
+        temp.next = new_node;
+        
     }
+    
     // add node at the beginning
     public void addAtBegin(int value){
         Node new_node = new Node(value);
@@ -50,7 +51,7 @@ public class LList {
     }
 
     // delete node 
-    public void deletNode(int key){
+    public void deleteNode(int key){
         // check if key located in head
         // if so, delete the first node
         Node temp = head;
@@ -87,16 +88,17 @@ public class LList {
 
     
     public static void main(String[] args) {
-        LList llist = new LList();
+        LinkedList1 llist = new LinkedList1();
         
-        llist.addAtBegin(5);
+        
         llist.addvalue(10);
-        llist.addvalue(20);
-        llist.addvalue(30);
-        llist.addvalue(40);
-        llist.addAtBegin(2);
-        llist.insertAtMiddle(llist.head.next, 70);
-        llist.deletNode(30);
+        llist.addvalue(20); 
+        // llist.addvalue(30);
+        // llist.addAtBegin(5);
+        // llist.addvalue(40);
+        // llist.addAtBegin(2);
+        // llist.insertAtMiddle(llist.head.next, 70);
+        // llist.deleteNode(30);
         
 
         llist.diplay();   
