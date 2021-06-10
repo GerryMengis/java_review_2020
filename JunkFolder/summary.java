@@ -1,5 +1,6 @@
-
+package JunkFolder;
 import java.lang.Math;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class summary {
@@ -59,5 +60,9 @@ public class summary {
             a[i] = Math.round(5);
             System.out.print(a[i] + " ");
         }
+
+         // Convert Array to ArrayList
+         String[] w = { "dbfiah", "hgfiwy" };
+         System.out.println("array's are" + Arrays.toString(w));
     }
 }
