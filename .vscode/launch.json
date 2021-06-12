@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QueueDeque",
+            "request": "launch",
+            "mainClass": "Collection.QueueDeque",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queue",
+            "request": "launch",
+            "mainClass": "Collection.Queue",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedHashSet1",
+            "request": "launch",
+            "mainClass": "Collection.LinkedHashSet1",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashSet1",
+            "request": "launch",
+            "mainClass": "Collection.HashSet1",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashSetNumber",
+            "request": "launch",
+            "mainClass": "Collection.HashSetNumber",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticvarAndMethod",
+            "request": "launch",
+            "mainClass": "OOP.StaticvarAndMethod",
+            "projectName": "java_review_2020_2f072f1e"
+        },
+        {
+            "type": "java",
             "name": "Launch BookLinkedList",
             "request": "launch",
             "mainClass": "Collection.BookLinkedList",

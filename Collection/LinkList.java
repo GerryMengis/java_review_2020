@@ -1,12 +1,14 @@
 package Collection;
 
-import java.util.LinkedList;
+import java.util.AbstractSequentialList;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 public class LinkList {
     public static void main(String[] args) {
+        AbstractSequentialList<String> d = new LinkedList<>();
  
-        LinkedList<String> ll1 = new LinkedList<>();
+        LinkedList<String> ll1 = new LinkedList<String>();
         ll1.add("Sam");
         ll1.add("David");
         ll1.add("George");
@@ -14,7 +16,7 @@ public class LinkList {
         System.out.println(ll1);
 
         ll1.add(1, "Smith");
-        System.out.println(ll1);
+        System.out.println(ll1); 
 
         LinkedList<String> ll2 = new LinkedList<>();
         ll2.add("Gerry");
@@ -57,19 +59,19 @@ public class LinkList {
         System.out.println();
 
         LinkedList<String> ll3 = new LinkedList<>();
-            ll3.add("Swiss");
-            ll3.add("Holland");
-            ll3.add("England");
+        ll3.add("Swiss");
+        ll3.add("Holland");
+        ll3.add("England");
         
-            LinkedList<String> ll4 = new LinkedList<>();
-            ll4.add("USA");
-            ll4.add("Canada");
-            ll4.add("Russia");
+        LinkedList<String> ll4 = new LinkedList<>();
+        ll4.add("USA");
+        ll4.add("Canada");
+        ll4.add("Russia");
 
-            ll3.addAll(ll4);
-            System.out.println("Added elements " + ll3);
-            ll3.addAll(0, ll4);
-            System.out.println("New added elements " + ll3);
+        ll3.addAll(ll4);
+        System.out.println("Added elements " + ll3);
+        ll3.addAll(0, ll4);
+        System.out.println("New added elements " + ll3);
     }
 
 }

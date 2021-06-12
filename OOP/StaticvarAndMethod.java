@@ -1,29 +1,29 @@
 package OOP;
 
 class Practice{
-    static int staticcounter;
-    int instancecounter;
+    static int static_counter;
+    int instance_counter;
 
     void counter(){
-        staticcounter++;
-        instancecounter++;
+        static_counter++;
+        instance_counter++;
     }
 
     void displayCount(){
-        System.out.println("StaticCounter : " + staticcounter);
-        System.out.println("instance counter : " + instancecounter);
+        System.out.println("StaticCounter : " + static_counter);
+        System.out.println("instance counter : " + instance_counter);
     }
 
     static void staticMethod(){
-        System.out.println("Static counter : " + staticcounter);
-        // System.out.println("instance counter : " + instancecounter); 
+        System.out.println("Static counter : " + static_counter);
+        // System.out.println("instance counter : " + instance_counter); 
         //only allowed to access static class variable 
-        // i.e. instancecounter is non-static instance variable
+        // i.e. instance_counter is non-static instance variable
     }
 
     void regilarMethod(){
-        System.out.println("instance counter : " + instancecounter);
-        System.out.println("Static counter : " + staticcounter);
+        System.out.println("instance counter : " + instance_counter);
+        System.out.println("Static counter : " + static_counter);
     }
 }
 public class StaticvarAndMethod {
