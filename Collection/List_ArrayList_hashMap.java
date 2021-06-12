@@ -1,4 +1,4 @@
-package OOP;
+package Collection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +31,7 @@ public class List_ArrayList_hashMap {
         // Array List
         System.out.println("Array List");
         int n = 4;
-        ArrayList<Integer> arrList = new ArrayList<>(n);
+        List<Integer> arrList = new ArrayList<>(n);
 
         arrList.add(10);
         arrList.add(20);

@@ -7,18 +7,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
- class Student {
-    int rollNo;
-    String name;
-    int age;
-
-    Student(int rollNo, String name, int age) {
-        this.name = name;
-        this.rollNo = rollNo;
-        this.age = age;
-    }
-    
-}
 public class StudentArrayList {
 
     public static void main(String[] args) {
@@ -31,7 +19,7 @@ public class StudentArrayList {
         list.add("Adam");
         list.add("Sam");
         list.add("Dan");
-        list.add(3, "David");
+        list.add(3, "David");//Add to specific position
         // List of the elements
         System.out.println("New ArrayList is : "+list);
         list.removeIf(str -> str.contains("Sam")); //Lambda expression
@@ -40,7 +28,7 @@ public class StudentArrayList {
         System.out.println("Updated ArrayList is : " + list);
         
         // Iterating to each array
-        Iterator itr = list.iterator();
+        Iterator<String> itr = list.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
@@ -72,7 +60,7 @@ public class StudentArrayList {
         System.out.println("Check if array get cleared: " + list.isEmpty());
 
         // Integer ArrayList
-        List<Integer> intList = new ArrayList<>();
+        ArrayList<Integer> intList = new ArrayList<>();
         intList.add(10);
         intList.add(5);
         intList.add(20);
@@ -106,7 +94,7 @@ public class StudentArrayList {
         Student s2 = new Student(102, "Sam", 30);
         Student s3 = new Student(103, "Adam", 40);
 
-        List<Student> studentlist = new ArrayList<>();
+        ArrayList<Student> studentlist = new ArrayList<>();
         studentlist.add(s1);
         studentlist.add(s2);
         studentlist.add(s3);
@@ -121,7 +109,7 @@ public class StudentArrayList {
         String[] a = { "Jen", "Smith" };
         System.out.println("Array's" + Arrays.toString(a));
 
-        List<String> l = new ArrayList<>();
+        ArrayList<String> l = new ArrayList<>();
         for (String i : a) {
             l.add(i);
         }
